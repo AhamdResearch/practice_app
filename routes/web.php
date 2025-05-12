@@ -13,3 +13,8 @@ Route::get('/test', function (){
 Route::get('/test2', function(){
     return "something in test2 route";
 });
+
+// new branch data
+Route::get('/test3', function(){
+    return "something in test3 route";
+});
